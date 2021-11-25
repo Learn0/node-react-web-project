@@ -1,0 +1,20 @@
+.table > thead > tr > th:first-child {
+  width: 100px;
+}
+.table > tbody > tr > td:first-child {
+  width: 40px;
+}
+.table > tbody > tr > td:nth-child(2) {
+  width: 60px;
+}
+.table > thead > tr > th:nth-child(2) {
+  width: 80px;
+}
+.table > tbody > tr > td > img {
+  min-width: 60px;
+  width: 60px;
+  height: 60px;
+}
+.table > tbody > tr {
+  cursor: pointer;
+}
